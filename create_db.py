@@ -11,4 +11,5 @@ mycursor = conn.cursor()
 sql_command =   """
                     CREATE DATABASE bank;
                 """
+
 mycursor.execute(sql_command)
